@@ -1,11 +1,24 @@
 import React, { Fragment } from 'react';
+import { Provider } from 'react-redux';
 import {Text} from 'react-native';
+import WithBootstrap from 'components/WithBootstrap';
+import Routes from 'routes';
+import Loader from 'components/Loader';
+
 
 const App = () => {
 
   return (
     <Fragment>
-        <Text>This is App page</Text>
+        {/* <Provider store={store}>
+        <Routes>
+          <WithBootstrap />
+          <Loader />
+          <Modal />
+        </Routes>
+      </Provider> */}
+      <Text>App</Text>
+      
     </Fragment>
   );
 };
