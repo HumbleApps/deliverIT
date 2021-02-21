@@ -3,7 +3,7 @@ import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 
 import pathNames from './pathNames';
 
-// import LoginView from 'views/LoginView';
+import LoginView from 'views/LoginView';
 // import OtpView from 'views/OtpView';
 // import RegisterView from 'views/RegisterView';
 // import NoVehicleView from 'views/NoVehicleView';
@@ -19,6 +19,7 @@ import pathNames from './pathNames';
 
 // import NotificationView from 'views/NotificationView';
 import HomeView from 'views/HomeView';
+import TmpView from 'views/TmpView';
 
 interface RouteType extends RouteProps {
   isPrivate: boolean;
@@ -32,12 +33,12 @@ const config: RouteType[] = [
     exact: true,
     isPrivate: false,
   },
-  // {
-  //   path: pathNames.login,
-  //   component: gestureHandlerRootHOC(LoginView),
-  //   exact: true,
-  //   isPrivate: false,
-  // },
+  {
+    path: pathNames.tmp,
+    component: gestureHandlerRootHOC(TmpView),
+    exact: true,
+    isPrivate: false,
+  },
   // {
   //   path: pathNames.otp,
   //   component: gestureHandlerRootHOC(OtpView),

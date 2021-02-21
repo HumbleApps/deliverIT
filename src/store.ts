@@ -19,9 +19,9 @@ if (process.env.NODE_ENV === 'development') {
 const store = createStore(
   rootReducer,
   initState,
-  composeWithDevTools(applyMiddleware(...middleware)),
+  // composeWithDevTools(applyMiddleware(...middleware)),
 );
-sagaMiddleware.run(rootSaga);
+// sagaMiddleware.run(rootSaga);
 
 /** Store state's Type */
 export type RootState = ReturnType<typeof store.getState>;

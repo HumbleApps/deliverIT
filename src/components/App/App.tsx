@@ -9,14 +9,14 @@ import Loader from 'components/Loader';
 const App = () => {
   return (
     <Fragment>
-      {/* <Provider store={store}> */}
-        {/* <Routes> */}
+      <Provider store={store}>
+        <Routes>
           {/* <WithBootstrap /> */}
           {/* <Loader /> */}
           {/* <Modal /> */}
-        {/* </Routes> */}
-      {/* </Provider> */}
-      <Text>App</Text>
+        </Routes>
+      </Provider>
+      {/* <Text>App</Text> */}
     </Fragment>
   );
 };

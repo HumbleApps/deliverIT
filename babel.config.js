@@ -20,6 +20,7 @@ module.exports = {
           '@hooks/*': ['./src/hooks'],
           '@styles/*': ['./src/styles'],
           '@modals/*': ['./src/modals'],
+          '@types/*': ['./src/types'],
         },
       },
     ],

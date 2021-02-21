@@ -1,5 +1,6 @@
 enum pathNames {
   home = '/',
+  tmp = '/tmp',
   login = '/login',
   otp = '/otp',
   register = '/register',

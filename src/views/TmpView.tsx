@@ -15,7 +15,7 @@ const HomeView = () => {
   // }
   return (
     // <View>{userType !== LTUserType.Driver ? <DiscoveryView /> : <View />}</View>
-    <View><Text>This is Homepage 1</Text></View>
+    <View><Text>This is Homepage 2</Text></View>
   );
 };
 

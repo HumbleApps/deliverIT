@@ -10,7 +10,7 @@ import Text from 'components/Text';
 import useLogin from 'hooks/useLogin';
 import useI18n from 'hooks/useI18n';
 
-import { LOGO_IMG } from 'images';
+// import { LOGO_IMG } from 'images';
 import pathNames from 'routes/pathNames';
 
 import styles from './LoginView.styles';
@@ -52,7 +52,7 @@ const LoginView = () => {
         }) => {
           return (
             <View style={[viewStyles.container, styles.container]}>
-              <Image source={LOGO_IMG} style={styles.img} />
+              {/* <Image source={LOGO_IMG} style={styles.img} /> */}
               <Text style={styles.header}>{translate('login')}</Text>
 
               <TextField

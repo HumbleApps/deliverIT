@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { Route, Redirect, RouteProps } from 'react-router-native';
 import { useSelector } from 'react-redux';
 
-import { selectIsAuthenticated } from 'selectors/userSelector';
+// import { selectIsAuthenticated } from 'selectors/userSelector';
 interface Props extends RouteProps {
   /* user is authenticated or not flag */
   isAuthenticated?: boolean;
@@ -15,7 +15,8 @@ interface Props extends RouteProps {
  * @returns <PrivateRoute />
  */
 const PrivateRoute: FC<Props> = ({ component: Component, ...rest }) => {
-  const isAuthenticated = useSelector(selectIsAuthenticated);
+  // const isAuthenticated = useSelector(selectIsAuthenticated);
+  const isAuthenticated = false;
 
   if (!Component) {
     return null;
@@ -30,7 +31,7 @@ const PrivateRoute: FC<Props> = ({ component: Component, ...rest }) => {
         ) : (
           <Redirect
             to={{
-              pathname: '/login',
+              pathname: '/tmp',
               state: { from: props.location.pathname },
             }}
           />
