@@ -172,3 +172,6 @@ buck-out/
 web-build/
 
 # @end expo-cli
+
+#jest cache
+.jest/cache

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "344012641595",
+    "project_id": "deliverit-ab353",
+    "storage_bucket": "deliverit-ab353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344012641595:android:015d8c615da6273139d31e",
+        "android_client_info": {
+          "package_name": "com.deliver.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344012641595-7oo4v1cketlkf90du59lgaef1i15frkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYAiA4ZuZOhDOYrBzsmlCeG-tTBYt9S6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344012641595-7oo4v1cketlkf90du59lgaef1i15frkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
