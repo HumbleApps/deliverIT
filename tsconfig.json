@@ -1,14 +1,35 @@
 {
   "compilerOptions": {
-    "jsx": "react-native",
-    "target": "esnext",
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
     "lib": ["dom", "esnext"],
     "allowJs": true,
+    "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"],
+      "@views/*": ["src/views/*"],
+      "@images/*": ["src/images/*"],
+      "@apis/*": ["src/apis/*"],
+      "@actions/*": ["src/actions/*"],
+      "@reducers/*": ["src/reducers/*"],
+      "@sagas/*": ["src/sagas/*"],
+      "@store/*": ["src/store/*"],
+      "@selectors/*": ["src/selectors/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@styles/*": ["src/styles/*"],
+      "@modals/*": ["src/modals/*"]
+    }
+  },
+  "include": ["./src/", "type.d.ts"]
 }
