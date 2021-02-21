@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "_internal": {
+      "isDebug": false,
+      "projectRoot": "/Users/lt/DATA_DRIVE/Prabhjot_code/HumbleApps/deliverIT",
+      "dynamicConfigPath": null,
+      "staticConfigPath": null,
+      "packageJsonPath": "/Users/lt/DATA_DRIVE/Prabhjot_code/HumbleApps/deliverIT/package.json"
+    },
+    "name": "deliverIT",
+    "slug": "deliverit",
+    "version": "1.0.0",
+    "sdkVersion": "40.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.deliver.com"
+    },
+    "ios": {
+      "bundleIdentifier": "com.deliver.com"
+    }
+  }
+}
