@@ -15,17 +15,17 @@ import notificationSaga from './notificationSaga';
 
 export default function* rootSaga() {
   yield all([
-    userSaga(),
-    authSaga(),
+    // userSaga(),
+    // authSaga(),
     // verificationSaga(),
-    vehicleSaga(),
-    driverSaga(),
-    assetSaga(),
+    // vehicleSaga(),
+    // driverSaga(),
+    // assetSaga(),
     // videoTrainingSaga(),
     // paymentsSaga(),
-    tripSaga(),
+    // tripSaga(),
     // clientListingSaga(),
-    hubsSaga(),
-    notificationSaga(),
+    // hubsSaga(),
+    // notificationSaga(),
   ]);
 }

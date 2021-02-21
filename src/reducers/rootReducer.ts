@@ -17,21 +17,21 @@ import notifications from 'reducers/notificationReducer';
 import hubs from 'reducers/hubsReducer';
 
 const rootReducer = combineReducers({
-  loader,
-  auth,
-  user,
-  modal,
-  images,
+  // loader,
+  // auth,
+  // user,
+  // modal,
+  // images,
   // verification,
-  vehicles,
-  assets,
-  drivers,
+  // vehicles,
+  // assets,
+  // drivers,
   // videoTraining,
   // payments,
-  trips,
+  // trips,
   // clients,
-  notifications,
-  hubs,
+  // notifications,
+  // hubs,
 });
 
 export default rootReducer;
