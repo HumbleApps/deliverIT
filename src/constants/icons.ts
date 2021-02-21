@@ -1,0 +1,15 @@
+export enum Icons {
+  TRUCK = 'truck',
+  BIGTRUCK = 'bigtruck',
+  USER = 'user',
+  HEADSET = 'headset',
+  BELL = 'bell',
+  MESSAGE = 'message',
+  FLAG = 'flag',
+  CALENDAR = 'calendar',
+  HOME = 'home',
+  DRIVER = 'driver',
+  RUPEE = 'rupee',
+  ROAD = 'road',
+  CLOCK = 'clock',
+}

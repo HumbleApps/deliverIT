@@ -1,0 +1,11 @@
+export const USER = '';
+export const ASSET = '';
+export const FO = '';
+export const MARKETPLACE = '';
+export const CACHE = '';
+export const MEDIA = '';
+export const SOCKET = '';
+export const DRIVER = '';
+export const REWARD = '';
+export const REAL_TIME = '';
+export const COMMUNICATION = '';
